@@ -1,0 +1,37 @@
+{% extends 'registration/registration.html' %}
+
+{% block content %}
+<div id="reg_block">
+    <h6><a href='http://127.0.0.1:8000/registration/'>Регистрация</a></h6>
+    <h2>Вход</h2>
+    <br/>
+    <form method="POST">
+        {% csrf_token %}
+        <table id='table'>
+            <tbody>
+                <tr><th>
+                    <label for='{{forms.username}}' id='table'>Usename: </label>
+                </th><td>
+                    {{ form.username }}
+                </td></tr>
+                <tr><th>
+                    <br/>
+                    <label for='{{forms.email}}' id='table'>Email: </label>
+                </th><td>
+                    <br/>
+                    {{ form.email }}
+                </td></tr>
+                <th>
+                    <br/>
+                    <label for='{{forms.password}}' id='table'>Password: </label>
+                </th><td>
+                    <br/>
+                    {{ form.password }}
+                </td></tr>
+                </tbody>
+        </table>
+        <br/>
+    <input type="submit" value="Ввести" >
+    </form>
+</div>
+{% endblock %}

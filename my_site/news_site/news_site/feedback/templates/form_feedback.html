@@ -1,0 +1,18 @@
+{% extends 'feedback.html' %}
+
+{% block content %}
+<div id="Articles">
+    <!--label>Если у вас есть новость и вы хотите ей поделиться, то пишите сюда: </label-->
+    <form method="POST">
+        {% csrf_token %}
+        <label>Пищите сюда по любым вопросам или если вы хотите <br /> предложить новость, то также пишите сюда, я не останусь <br /> равнодушным не к чему.</label>
+        {% for form_feedbacks in form_feedback %}
+            {{ form_feedbacks }}
+        {% endfor %}
+        <br />
+        <input id="button_feedback" type="submit" class="btn btn-primary" value ='Отправить сообшение'>
+        <br />
+        <br />
+    </form>
+</div>
+{% endblock %}

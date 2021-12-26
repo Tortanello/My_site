@@ -1,0 +1,184 @@
+body {
+    background: url(https://cdn.pixabay.com/photo/2020/07/23/01/16/heritage-5430081_1280.jpg) no-repeat center top fixed;
+    background-size: cover;
+}
+
+header {
+    box-sizing: border-box;
+    text-align: center;
+
+    opacity: 0.8;
+}
+
+#Popup_menu {
+    width: 1400px;
+    height: 40px;
+    margin: auto;
+    background-color: aqua;
+    box-sizing: border-box;
+
+    font-size: 30px;
+    text-align: center;
+    opacity: 0.5;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+div a {
+    text-decoration: none;
+}
+
+#Articles {
+    width: 1000px;
+    min-height: calc(10px + 350px);
+    margin: auto;
+    background-color: f7eded;
+    box-sizing: border-box;
+
+    font-size: 30px;
+    text-align: center;
+    border-radius: 40px;
+    padding: 10px 40px 20px 40px;
+
+    opacity: 1;
+
+    word-break: break-all;
+}
+
+#show_panel {
+    width: 67px;
+    min-height: 10px;
+    margin: auto;
+    background-color: c0f1fc;
+    opacity: 0.4;
+    display: none;
+}
+
+#img_bd_1 {
+    width: 400px;
+    float: left;
+}
+
+#date {
+    float: left;
+}
+
+#boot_card {
+    padding: 0px 250px 0px 250px;
+    opacity: 0.9;
+
+}
+
+.card-body {
+    background-color: f7eded;
+    max-width: 1000px;
+}
+
+#ar_title {
+    min-width: 200px;
+    max-width: 1000px;
+}
+
+#post_print {
+    white-space: pre-wrap;
+}
+
+#popup_m {
+    min-width: 240px;
+    max-width: 336px;
+    height: auto;
+    background-color: aqua;
+    box-sizing: border-box;
+
+    font-size: 30px;
+    opacity: 0.5;
+    word-break: break-all;
+    display: none;
+}
+
+#dom_comment {
+    width: 900px;
+    min-height: calc(10px + 50px);
+    margin: auto;
+    background-color: fff;
+    box-sizing: border-box;
+
+    font-size: 30px;
+    text-align: center;
+    border-radius: 40px;
+    padding: 10px 40px 20px 40px;
+
+    opacity: 1;
+
+    word-break: break-all;
+}
+#forms_comment{
+    float: left;
+}
+#form_comment{
+    margin-top: 0px;
+    margin-bottom: 0px;
+    height: 103px;
+}
+#button_comment{
+    float: left;
+}
+#comments{
+    float: left;
+    cursor: pointer;
+}
+
+#dom_comments_ {
+    width: 900px;
+    min-height: calc(10px + 50px);
+    margin: auto;
+    background-color: f7eded;
+    box-sizing: border-box;
+
+    font-size: 30px;
+    text-align: center;
+    border-radius: 40px;
+    padding: 10px 40px 20px 40px;
+
+    opacity: 1;
+
+    word-break: break-all;
+}
+#internal_dom_comment{
+    width: 800px;
+    min-height: calc(10px + 50px);
+    margin: auto;
+    background-color: fff;
+    box-sizing: border-box;
+
+    font-size: 30px;
+    text-align: left;
+    border-radius: 40px;
+    padding: 10px 40px 20px 40px;
+
+    opacity: 1;
+
+    word-break: break-all;
+}
+#item_comment{
+    margin-left: 15px;
+    margin-top: 20px;
+}
+#page{
+    width: 600px;
+    min-height: calc(10px + 50px);
+    margin: auto;
+    background-color: f7eded;
+    box-sizing: border-box;
+
+    font-size: 30px;
+    text-align: center;
+    border-radius: 40px;
+    padding: 20px 40px 20px 40px;
+
+    opacity: 1;
+
+    word-break: break-all;
+}
+#page_size{
+    font-size: 25px;
+}

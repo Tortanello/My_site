@@ -1,0 +1,11 @@
+{% extends 'registration/registration.html' %}
+
+{% block content %}
+
+<div id="reg_block">
+    <h1>Вы "{{ username }}" хотите выйти из аккаунта?</h1>
+    <a id='yes' href = 'http://127.0.0.1:8000/registration/de_auntification'><h1>Да</h1></a>
+    <a href ='http://127.0.0.1:8000'><h1>Нет</h1></a>
+</div>
+
+{% endblock %}

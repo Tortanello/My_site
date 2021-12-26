@@ -1,0 +1,9 @@
+C:\Users\zheny\Desktop\news_site\news_site
+python manage.py runserver
+python manage.py startapp
+урок 4
+
+username : Zhenya
+e-mail   : Zhenya.Kolenkov@mail.ru
+password : ZQt24.WkF
+include - узнать

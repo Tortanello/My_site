@@ -1,0 +1,15 @@
+{
+  "ExpandedNodes": [
+    "",
+    "\\article",
+    "\\article\\static",
+    "\\article\\static\\article",
+    "\\article\\templates",
+    "\\article\\templates\\article",
+    "\\registration",
+    "\\registration\\static\\registration",
+    "\\registration\\templates\\registration"
+  ],
+  "SelectedNode": "\\article\\static\\article\\JavaScript_news.js",
+  "PreviewInSolutionExplorer": false
+}

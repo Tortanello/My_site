@@ -1,0 +1,32 @@
+﻿{% extends 'article/html_news.html' %}
+
+{% block content %}
+{% for data in object_list %}
+    <div id="Articles">
+        <img src="http://127.0.0.1:8000/media/{{data.img}}" alt="{{data.title}}" title="{{data.title}}" id="img_bd_1" />
+        <a href="{{data.id}}"><h1>{{data.title | linebreaks}}</h1></a>
+        <p><h6 id="date" class="text-info">&emsp;Создан: {{data.date|date:'d-m-Y H:i:s'}}</h6></p>
+
+        <br /><br />
+
+    </div>
+<br />
+<br />
+{% endfor %}
+    <div id='page'>
+        <p>Страница {{ page_obj.number }} из {{ page_obj.paginator.num_pages }}.</p>
+
+        {% if page_obj.has_previous %}
+            <!--a id='page_size' href="{{ request.path }}?page=1">Первая страница</a>
+            <br/-->
+            <a id='page_size' href="{{ request.path }}?page={{ page_obj.previous_page_number }}">Предыдущяя страница</a>
+            <br/>
+        {% endif %}
+
+        {% if page_obj.has_next %}
+            <a id='page_size' href="{{ request.path }}?page={{ page_obj.next_page_number }}">Следуйщяя страница</a>
+            <!--br/>
+            <a id='page_size' href="{{ request.path }}?page={{ page_obj.paginator.num_pages }}">Последняя страница</a-->
+        {% endif %}
+    </div>
+{% endblock %}
